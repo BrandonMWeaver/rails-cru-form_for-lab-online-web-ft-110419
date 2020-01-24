@@ -18,6 +18,7 @@ class ArtistsController < ApplicationController
   end
   
   def update
+    artist = Artist.
   end
   
   private
