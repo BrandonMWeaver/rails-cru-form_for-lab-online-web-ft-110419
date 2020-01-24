@@ -20,7 +20,7 @@ class GenresController < ApplicationController
   private
   
   def genre_params(*args)
-    return params.require(:artist).permit(*args)
+    return params.require(:genre).permit(*args)
   end
   
 end
