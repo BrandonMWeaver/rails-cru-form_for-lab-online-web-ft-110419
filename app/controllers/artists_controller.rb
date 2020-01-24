@@ -18,4 +18,10 @@ class ArtistsController < ApplicationController
   def update
   end
   
+  private
+  
+  def artist_path
+    
+  end
+  
 end
