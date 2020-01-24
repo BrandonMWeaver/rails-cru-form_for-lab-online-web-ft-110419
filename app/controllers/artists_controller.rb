@@ -20,7 +20,7 @@ class ArtistsController < ApplicationController
   
   private
   
-  def artist_path(*args)
+  def artist_params(*args)
     return params.require(:artist).permit(*args)
   end
   
